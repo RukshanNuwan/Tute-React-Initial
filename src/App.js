@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+// ----------------------------------------------------------------------
+// Import another component
+// ----------------------------------------------------------------------
+import Post from './Post'
+
 // function App() {
   // return (
   //   <div className="App">
@@ -16,7 +21,10 @@ import './App.css';
     // Function Body
     return (
       <div className="App">
-        <h2>Hello</h2>
+        <h2>App Component</h2>
+
+        {/* Use imported Post component */}
+        <Post/>
       </div>
     );
   }
