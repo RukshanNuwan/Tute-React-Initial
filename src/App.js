@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 // ----------------------------------------------------------------------
 // Import another component
 // ----------------------------------------------------------------------
 import Post from './Post'
+import MainComponent from './components/MainComponent'
 
 // function App() {
   // return (
@@ -22,9 +22,10 @@ import Post from './Post'
     return (
       <div className="App">
         <h2>App Component</h2>
-
         {/* Use imported Post component */}
         <Post/>
+
+        <MainComponent/>
       </div>
     );
   }

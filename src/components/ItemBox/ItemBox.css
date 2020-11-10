@@ -1,0 +1,20 @@
+.box {
+    width: 20%;
+    height: 300px;
+
+    margin: 1%;
+
+    background-color: rgb(25, 102, 202);
+}
+
+.image {
+    width: 40%;
+    height: auto;
+
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.image:hover {
+    filter: grayscale(0%);
+}
