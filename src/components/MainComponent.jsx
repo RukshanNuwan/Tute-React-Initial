@@ -78,6 +78,8 @@ export default class MainComponent extends Component {
                     <ItemBox title="Angular" version="10.0.0" description="Angular sample description" image={AngularImage} />
                     <ItemBox title="Vue JS" version="3.0.0" description="Vue.js sample description" image={VueImage} />
                 </div>
+
+                <hr/>
             </div>
         )
     }

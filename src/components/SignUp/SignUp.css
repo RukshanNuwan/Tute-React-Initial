@@ -1,0 +1,40 @@
+.SignUpParent {
+    height: 70vh;
+    width: 50vw;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+
+    display: flex;
+}
+
+.SignUpName {
+    height: 70vh;
+    width: 40%;
+
+    background-color: #45a29e;
+}
+
+.SignUpHeader {
+    color: #2c303a;
+}
+
+.SignUpForm {
+    height: 70vh;
+    width: 60%;
+
+    border: 3px solid #45a29e;
+
+    text-align: left;
+}
+
+.btnRegister {
+    width: 100%;
+
+    border: none;
+    border-radius: 3px;
+
+    color: #2c303a;
+    background-color: #45a29e;
+}
